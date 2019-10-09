@@ -44,5 +44,5 @@ int main(){
     }
     vector<pair<long long int,long long int> > z(x.begin(), x.end());
     if(z.size()==1){cout << z[0].first*z[0].second;return 0;}
-    cout << getBestScore(z, 0);
+    cout << getBestScore(z, 0); 
 }
